@@ -65,7 +65,7 @@ export default function Home() {
             onChnage={(e) => setSearch(e.target.value)}
             value={search}
           />
-          <section className=" justify-center flex flex-wrap gap-3 sm:justify-between">
+          <section className=" justify-center flex flex-wrap gap-3 sm:justify-between pb-10">
             {/* card */}
 
             {data && moviesData
